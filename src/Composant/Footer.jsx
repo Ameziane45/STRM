@@ -39,18 +39,16 @@ const Footer = () => {
               <h3>NEWSLETTER</h3>
               <ul>
                 <li>
-                  <a href="#">Job openings</a>
-                </li>
-                <li>
-                  <a href="#">Employee success</a>
-                </li>
-                <li>
-                  <a href="#">Benefits</a>
+                  <a href="#">
+                    Restez connecté, et soyez au courant des prochaines
+                    nouveautés
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
+        <hr></hr>
         <p className="copyright">STRM © 2023</p>
       </footer>
     </div>
