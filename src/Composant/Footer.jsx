@@ -1,5 +1,6 @@
 import React from "react";
-import "../Styles/Footer.css"
+import "../Styles/Footer.css";
+import "../app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
@@ -9,36 +10,33 @@ const Footer = () => {
       <footer>
         <div className="container">
           <div className="row justify-content-center">
+            <div className="col-lg-3 item social">
+              <a href="#">
+                <i className="icon ion-social-facebook"></i>
+              </a>
+              <a href="#">
+                <i className="icon ion-social-instagram"></i>
+              </a>
+            </div>
             <div className="col-sm-4 col-md-3 item">
-              <h3>Services</h3>
+              <h3>LIENS RAPIDES</h3>
               <ul>
                 <li>
-                  <a href="#">Web design</a>
+                  <a href="#">Catégories</a>
                 </li>
                 <li>
-                  <a href="#">Development</a>
+                  <a href="#">Film</a>
                 </li>
                 <li>
-                  <a href="#">Hosting</a>
+                  <a href="#">Acteurs</a>
+                </li>
+                <li>
+                  <a href="#">À Propos</a>
                 </li>
               </ul>
             </div>
             <div className="col-sm-4 col-md-3 item">
-              <h3>About</h3>
-              <ul>
-                <li>
-                  <a href="#">Company</a>
-                </li>
-                <li>
-                  <a href="#">Team</a>
-                </li>
-                <li>
-                  <a href="#">Legacy</a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-sm-4 col-md-3 item">
-              <h3>Careers</h3>
+              <h3>NEWSLETTER</h3>
               <ul>
                 <li>
                   <a href="#">Job openings</a>
@@ -51,23 +49,9 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3 item social">
-              <a href="#">
-                <i className="icon ion-social-facebook"></i>
-              </a>
-              <a href="#">
-                <i className="icon ion-social-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="icon ion-social-snapchat"></i>
-              </a>
-              <a href="#">
-                <i className="icon ion-social-instagram"></i>
-              </a>
-              <p className="copyright">STRM © 2023</p>
-            </div>
           </div>
         </div>
+        <p className="copyright">STRM © 2023</p>
       </footer>
     </div>
   );
