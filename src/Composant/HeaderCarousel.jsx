@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Header.css";
-import LogoImage from "../../public/Logo.png";
+import LogoImage from "/Logo.png";
 
 
 const HeaderCarousel = () => {
