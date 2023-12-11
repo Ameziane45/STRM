@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #0A120C;
+    --primary-color-light: #DDD9C7;
+    --primary-color-highlight: #4DC344;
+    --primary-color-highlight-light: #CBFCD8;
+    --bs-body-bg: #2D2D2D;
+    --bs-body-font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    color: var(--primary-color-highlight);
+  }
+  
+  h1 {
+    color: var(--primary-color-highlight);
+  }
+  
+  /* Custom Container */
+  .container__carousel {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+  }
+  
+  /* Carousel Caption */
+  .hero__custom {
+    position: absolute !important;
+    max-width: 400px;
+    top: 25%;
+    text-align: left !important;
+    padding: 20px;
+    bottom: 0 !important;
+  }
+  
+  /* Buttons Control */
+  .carousel-control-prev,
+  .carousel-control-next {
+    bottom: 0; 
+    position: absolute !important;
+  }
+  
+  /* Styles pour les écrans de petite taille */
+  @media (max-width: 768px) {
+    .hero__custom {
+      max-width: 100%;
+      padding-bottom: 0;
+    }
+  
+    .hero__custom h1 {
+      font-size: 18px; 
+      margin-bottom: 8px; 
+    }
+  
+    .hero__custom p {
+      font-size: 14px;
+      padding-bottom: 0;
+    }
+  
+    .hero__custom a.btn {
+      font-size: 12px;
+      margin-top: 8px; 
+      border: 1px solid;
+      padding: 5px 10px; 
+    }
+  }
+  
