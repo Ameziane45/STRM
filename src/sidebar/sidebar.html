@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="sidebar.css" />
+
+    <!-- Google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Muli" />
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="sidebar close">
+        <div class="menu-btn">
+            <i class="fa-solid fa-grip-lines"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span class="link-name">Recherche</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-film"></i>
+                    <span class="link-name">Films</span>
+                </a>
+            </li>
+            <!-- Sub-menu -->
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <i class="fa-solid fa-mask"></i>
+                        <span class="link-name">Acteurs</span>
+                    </a>
+                    <i class="fas fa-caret-down arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="#" class="link-name">Catégories</a></li>
+                    <li><a href="#">Catégorie 01</a></li>
+                    <li><a href="#">Catégorie 02</a></li>
+                    <li><a href="#">Catégorie 03</a></li>
+                    <li><a href="#">Catégorie 04</a></li>
+                    <li><a href="#">Catégorie 05</a></li>
+                    <li><a href="#">Catégorie 06</a></li>
+                    <li><a href="#">Catégorie 07</a></li>
+                    <li><a href="#">Catégorie 08</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script src="sidebar.js"></script>
+
+</body>
+
+</html>

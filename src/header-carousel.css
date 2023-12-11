@@ -1,0 +1,101 @@
+/* --- Codes couleurs ---
+• Dark •
+HEX #0A120C — RBG(10, 18, 12)
+HEX #0A0A0A — RBG(10, 10, 10)
+HEX #2D2D2D — RBG(45, 45, 45)
+
+• Light •
+HEX #E9E0B7 — RBG(233, 224, 283)
+HEX #DDD9C7 — RGB(221, 217, 199)
+
+• Green •
+HEX #003C1C — RGB(0, 60, 28)
+HEX #4DC344 — RGB(77, 195, 68)
+HEX #CBFCD8 — RGB(203, 252, 216)
+
+• Camel •
+HEX #846D37 — RGB(005D19)
+
+• Yellow •
+HEX #07120C — RGB(7, 18, 12)
+
+• Gradient •
+HEX #00BA32 — #005D19
+*/
+
+:root {
+    --primary-color: #0A120C;
+    --primary-color-light: #DDD9C7;
+    --primary-color-highlight: #4DC344;
+    --primary-color-highlight-light: #CBFCD8;
+    --bs-body-bg: #2D2D2D;
+    --bs-body-font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: var( --primary-color-highlight);
+}
+
+h1 {
+   color: var(--primary-color-highlight);
+}
+
+/*
+@media (min-width: 544px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1400px) {}
+@media (min-width: 1600px) {}
+*/
+
+
+/* Custom Container */
+.container__carousel {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+/* Carousel Caption */
+.hero__custom {
+    position: absolute !important;
+    max-width: 400px;
+    top: 25%;
+    text-align: left !important;
+    padding: 20px;
+    bottom: 0 !important;
+}
+
+/* Buttons Control */
+.carousel-control-prev,
+.carousel-control-next {
+    bottom: 0; 
+    position: absolute !important;
+}
+
+/* Styles pour les écrans de petite taille */
+@media (max-width: 768px) {
+    .hero__custom {
+        max-width: 100%;
+        padding-bottom: 0;
+    }
+
+    .hero__custom h1 {
+        font-size: 18px; 
+        margin-bottom: 8px; 
+    }
+
+    .hero__custom p {
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+
+    .hero__custom a.btn {
+        font-size: 12px;
+        margin-top: 8px; 
+        border: 1px solid;
+        padding: 5px 10px; 
+    }
+}

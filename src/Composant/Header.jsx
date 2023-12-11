@@ -26,22 +26,12 @@ const Header = () => {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="#">
-                  Home
+                  Accueil
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
+                  À Propos
                 </a>
               </li>
             </ul>
